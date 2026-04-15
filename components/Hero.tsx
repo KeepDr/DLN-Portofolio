@@ -55,7 +55,7 @@ export default function Hero() {
           </motion.h2>
 
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.2 }} className="flex flex-wrap items-center gap-6 pt-4">
-            <a href="/image/Resume.pdf" className="px-6 py-3 bg-ocean-400 text-ocean-950 font-bold rounded-lg hover:shadow-[0_0_30px_rgba(0,221,235,0.4)] transition-all">
+            <a href="/image/ResumeCV.pdf" className="px-6 py-3 bg-ocean-400 text-ocean-950 font-bold rounded-lg hover:shadow-[0_0_30px_rgba(0,221,235,0.4)] transition-all">
                 CV
             </a>
 

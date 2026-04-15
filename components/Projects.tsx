@@ -56,7 +56,7 @@ export default function Projects() {
       description: "This immersive, responsive single-page portfolio built with Next.js, Framer Motion, and Glassmorphism design.",
       tech: ["Next.js", "TypeScript", "Tailwind"],
       link: "https://github.com/Benedictus-Delon/DLN-Portfolio",
-      img: "/image/Cloud.png", // Replace with a screenshot of this site later!
+      img: "/image/port.png", // Replace with a screenshot of this site later!
       isGithub: true
     }
   ];
