@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  /* Restoring the Deep Ocean Palette */
+  --color-ocean-950: #050A18; /* Near black navy */
+  --color-ocean-900: #0B132B; /* Deep navy */
+  --color-ocean-800: #1C2541; /* Royal navy */
+  --color-ocean-400: #00DDEB; /* Neon Cyan */
+  --color-ocean-300: #5BC0BE; /* Muted Cyan */
+  --color-ocean-100: #EFFFFF; /* Ice white */
+}
+
+/* Force the background to be deep blue, never gray */
+body {
+  background-color: var(--color-ocean-950);
+  color: var(--color-ocean-100);
+  margin: 0;
+  overflow-x: hidden;
+}
+
+/* Modern Glassmorphism Utility */
+.glass-card {
+  background: rgba(28, 37, 65, 0.4);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(0, 221, 235, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.8);
+}
