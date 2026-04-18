@@ -60,9 +60,9 @@ export default function Hero() {
             </a>
 
             <div className="flex items-center gap-5 text-ocean-100/30">
-              <a href="https://linkedin.com/in/yourprofile" className="hover:text-ocean-400 transition-colors"><Linkedin /></a>
-              <a href="https://github.com/yourusername" className="hover:text-ocean-400 transition-colors"><GitHubIcon /></a>
-              <a href="https://instagram.com/yourusername" className="hover:text-ocean-400 transition-colors"><Instagram /></a>
+              <a href="https://www.linkedin.com/in/benedictus-alonso-harland-sutojo-059506390/" className="hover:text-ocean-400 transition-colors"><Linkedin /></a>
+              <a href="https://github.com/KeepDr" className="hover:text-ocean-400 transition-colors"><GitHubIcon /></a>
+              <a href="https://www.instagram.com/benedictusdelon?igsh=NXpvNHY2aWg3Mmpp&utm_source=qr" className="hover:text-ocean-400 transition-colors"><Instagram /></a>
             </div>
           </motion.div>
         </div>
