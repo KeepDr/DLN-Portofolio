@@ -23,12 +23,12 @@ export default function Footer() {
 
   return (
     <footer className="relative bg-ocean-950 pt-20 pb-10 border-t border-ocean-800/50">
-      {/* Decorative Glow */}
+      
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-4xl h-[1px] bg-gradient-to-r from-transparent via-ocean-400/50 to-transparent"></div>
 
       <div className="max-w-6xl mx-auto px-6 md:px-12 flex flex-col items-center">
         
-        {/* Top Section: CTA */}
+        
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -42,7 +42,7 @@ export default function Footer() {
           </p>
         </motion.div>
 
-        {/* Middle Section: Social Icons */}
+        
         <div className="flex items-center gap-8 mb-16">
           <motion.a 
             whileHover={{ y: -5, color: "#00DDEB" }}
@@ -77,15 +77,15 @@ export default function Footer() {
           </motion.a>
         </div>
 
-        {/* Bottom Section: Perfectly Balanced Grid */}
+        
         <div className="w-full grid grid-cols-1 md:grid-cols-3 items-center gap-8 pt-8 border-t border-ocean-800/30">
           
-          {/* 1. Left Column: Copyright */}
+          
           <div className="text-sm text-ocean-100/30 font-mono text-center md:text-left">
             © 2026 Benedictus Alonso.
           </div>
           
-          {/* 2. Center Column: Back to Top */}
+          
           <div className="flex justify-center">
             <button 
               onClick={scrollToTop}
@@ -96,7 +96,7 @@ export default function Footer() {
             </button>
           </div>
 
-          {/* 3. Right Column: Location */}
+          
           <div className="text-[10px] md:text-xs text-ocean-100/20 font-mono italic text-center md:text-right uppercase tracking-wider">
             Made with 💙
           </div>

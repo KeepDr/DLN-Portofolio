@@ -83,7 +83,7 @@ export default function Experience() {
                 i % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
               }`}
             >
-              {/* Left Wing: The Text Card */}
+              
               <div className="flex-1">
                 <div className="glass-card p-10 md:p-14 rounded-[2.5rem] h-full flex flex-col justify-center border border-ocean-700/20 hover:border-ocean-400/30 transition-all duration-500">
                   <span className="text-ocean-400 font-mono text-sm font-bold uppercase tracking-widest">{job.period}</span>
@@ -95,7 +95,7 @@ export default function Experience() {
                 </div>
               </div>
 
-              {/* Right Wing: The Shuffling Gallery */}
+              
               <div className="flex-1">
                 <ImageShuffler images={job.photos} />
               </div>

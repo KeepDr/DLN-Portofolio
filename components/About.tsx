@@ -9,7 +9,7 @@ export default function About() {
       <div className="max-w-6xl mx-auto px-6 md:px-12">
         <div className="flex flex-col lg:flex-row gap-16 items-start">
           
-          {/* Left Side: Navigation / Sticky Labels */}
+          
           <motion.div 
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -22,7 +22,7 @@ export default function About() {
                 About <span className="text-ocean-400">Me.</span>
               </h2>
               
-              {/* Perspective / Desire Card */}
+              
               <div className="space-y-6">
                 <div className="glass-card p-6 rounded-2xl border-l-4 border-ocean-400">
                   <div className="flex items-center gap-3 mb-2 text-ocean-400">
@@ -37,7 +37,7 @@ export default function About() {
             </div>
           </motion.div>
 
-          {/* Right Side: The Content Split */}
+          
           <motion.div 
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -46,7 +46,7 @@ export default function About() {
           >
             <div className="space-y-10">
               
-              {/* Block 1: About Me */}
+              
               <div className="glass-card p-8 md:p-10 rounded-3xl relative overflow-hidden group">
                 <div className="absolute -top-24 -right-24 w-64 h-64 bg-ocean-400/5 blur-[80px] rounded-full group-hover:bg-ocean-400/10 transition-all duration-700"></div>
                 
@@ -58,7 +58,7 @@ export default function About() {
                 </div>
               </div>
 
-              {/* Block 2: My Desire */}
+              
               <div className="glass-card p-8 md:p-10 rounded-3xl relative overflow-hidden group border-t border-ocean-400/10">
                 <div className="flex items-center gap-4 mb-6">
                   <div className="p-2 bg-ocean-400/10 rounded-lg text-ocean-400">

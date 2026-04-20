@@ -57,7 +57,7 @@ export default function Skills() {
     <section id="skills" className="py-52 relative">
       <div className="max-w-6xl mx-auto px-6 md:px-12">
         
-        {/* --- PART 1: HARD SKILLS --- */}
+        
         <div className="mb-40">
           <motion.div
             initial={{ opacity: 0, x: -30 }}
@@ -96,7 +96,7 @@ export default function Skills() {
           </div>
         </div>
 
-        {/* --- PART 2: SOFT SKILLS --- */}
+        
         <div>
           <motion.div
             initial={{ opacity: 0, x: -30 }}

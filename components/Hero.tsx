@@ -3,7 +3,6 @@ import React from 'react';
 import { Download } from 'lucide-react';
 import { motion } from 'framer-motion';
 
-// --- CUSTOM SOCIAL ICONS ---
 const Linkedin = ({ size = 22 }) => (
   <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
 );
@@ -67,7 +66,7 @@ export default function Hero() {
           </motion.div>
         </div>
 
-        {/* PORTRAIT with Blue Glow */}
+        
         <motion.div initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} className="relative group">
           <div className="absolute -inset-1 bg-gradient-to-r from-ocean-400 to-ocean-800 rounded-full blur opacity-20 group-hover:opacity-40 transition duration-1000"></div>
           <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full border border-ocean-400/20 overflow-hidden shadow-[0_0_50px_rgba(0,221,235,0.1)]">
