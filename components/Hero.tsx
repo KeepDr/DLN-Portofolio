@@ -54,14 +54,14 @@ export default function Hero() {
           </motion.h2>
 
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.2 }} className="flex flex-wrap items-center gap-6 pt-4">
-            <a href="/image/ResumeCV.pdf" className="px-6 py-3 bg-ocean-400 text-ocean-950 font-bold rounded-lg hover:shadow-[0_0_30px_rgba(0,221,235,0.4)] transition-all">
+            <a href="/image/ResumeCV.pdf" target="_blank" rel="noopener noreferrer" className="px-6 py-3 bg-ocean-400 text-ocean-950 font-bold rounded-lg hover:shadow-[0_0_30px_rgba(0,221,235,0.4)] transition-all">
                 CV
             </a>
 
             <div className="flex items-center gap-5 text-ocean-100/30">
-              <a href="https://www.linkedin.com/in/benedictus-alonso-harland-sutojo-059506390/" className="hover:text-ocean-400 transition-colors"><Linkedin /></a>
-              <a href="https://github.com/KeepDr" className="hover:text-ocean-400 transition-colors"><GitHubIcon /></a>
-              <a href="https://www.instagram.com/benedictusdelon?igsh=NXpvNHY2aWg3Mmpp&utm_source=qr" className="hover:text-ocean-400 transition-colors"><Instagram /></a>
+              <a href="https://www.linkedin.com/in/benedictus-alonso-harland-sutojo-059506390/" target="_blank" rel="noopener noreferrer" className="hover:text-ocean-400 transition-colors"><Linkedin /></a>
+              <a href="https://github.com/KeepDr" target="_blank" rel="noopener noreferrer" className="hover:text-ocean-400 transition-colors"><GitHubIcon /></a>
+              <a href="https://www.instagram.com/benedictusdelon?igsh=NXpvNHY2aWg3Mmpp&utm_source=qr" target="_blank" rel="noopener noreferrer" className="hover:text-ocean-400 transition-colors"><Instagram /></a>
             </div>
           </motion.div>
         </div>

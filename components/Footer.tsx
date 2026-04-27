@@ -48,6 +48,7 @@ export default function Footer() {
             whileHover={{ y: -5, color: "#00DDEB" }}
             href="https://www.linkedin.com/in/benedictus-alonso-harland-sutojo-059506390/" 
             target="_blank"
+            rel="noopener noreferrer"
             className="text-ocean-100/40 transition-colors"
           >
             <Linkedin />
@@ -56,6 +57,7 @@ export default function Footer() {
             whileHover={{ y: -5, color: "#00DDEB" }}
             href="https://github.com/KeepDr" 
             target="_blank"
+            rel="noopener noreferrer"
             className="text-ocean-100/40 transition-colors"
           >
             <GitHubIcon />
@@ -64,6 +66,7 @@ export default function Footer() {
             whileHover={{ y: -5, color: "#00DDEB" }}
             href="https://www.instagram.com/benedictusdelon" 
             target="_blank"
+            rel="noopener noreferrer"
             className="text-ocean-100/40 transition-colors"
           >
             <Instagram />
@@ -71,6 +74,7 @@ export default function Footer() {
           <motion.a 
             whileHover={{ y: -5, color: "#00DDEB" }}
             href="mailto:benedictusdelon11@gmail.com" 
+            rel="noopener noreferrer"
             className="text-ocean-100/40 transition-colors"
           >
             <Mail size={24} />
