@@ -69,7 +69,7 @@ export default function About() {
                 
                 <div className="space-y-6 text-ocean-100/80 leading-relaxed text-lg">
                   <p>
-                    Beyond technical results, my true desire lies in <span className="text-ocean-400">holistic self-improvement</span>. I am currently dedicated to enhancing my hard skills in deep learning and full-stack architecture while simultaneously refining the soft skills—communication, leadership, and emotional intelligence—required to lead high-performing teams.
+                    Beyond technical results, my true desire lies in <span className="text-ocean-400">self improvement</span>. I am currently dedicated to enhancing my hard skills in deep learning and full-stack architecture while simultaneously refining the soft skills communication, leadership, and emotional intelligence—required to lead high performing teams.
                   </p>
                   <p>
                     I view every project and organizational role is an opportunity to bridge the gap between technical mastery and human connection. I am constantly seeking challenges that force me to learn, adapt, and grow.

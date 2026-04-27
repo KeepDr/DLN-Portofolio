@@ -77,9 +77,6 @@ export default function Projects() {
               Featured <br /> <span className="text-ocean-400">Projects.</span>
             </h2>
           </motion.div>
-          <p className="text-ocean-100/30 font-mono text-sm hidden md:block pb-4 italic">
-            // crafting digital experiences
-          </p>
         </div>
 
         {/* Airy Project Grid */}
