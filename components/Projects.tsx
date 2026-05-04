@@ -9,7 +9,6 @@ const GitHubIcon = ({ size = 20, className = "" }) => (
 );
 
 export default function Projects() {
-  // This is the variable the error was looking for!
   const projects = [
     {
       title: "GNNs for Cloud Security",
@@ -45,7 +44,7 @@ export default function Projects() {
     },
     {
       title: "Ecosystem Checker",
-      description: "An automated computer vision application designed to bridge urban planning and environmental conservation. Built with Python and OpenCV, it analyzes HSV color space distributions to quantify green spaces and water bodies. The system generates a data-driven ecological score and produces visual 'improvement maps' via an interactive Gradio interface to suggest targeted biodiversity interventions.",
+      description: "An automated computer vision application designed to bridge urban planning and environmental conservation.  ",
       tech: ["Product Design", "Prototyping"],
       link: "https://github.com/KeepDr/EcosystemChecker",
       img: "/image/EcoCheck.png",
@@ -56,7 +55,7 @@ export default function Projects() {
       description: "This immersive, responsive single-page portfolio built with Next.js, Framer Motion, and Glassmorphism design.",
       tech: ["Next.js", "TypeScript", "Tailwind"],
       link: "https://github.com/KeepDr/DLN-Portofolio",
-      img: "/image/port.png", // Replace with a screenshot of this site later!
+      img: "/image/port.png",
       isGithub: true
     }
   ];
@@ -115,7 +114,7 @@ export default function Projects() {
                   {p.title}
                 </h3>
                 
-                <p className="text-ocean-100/50 text-sm leading-relaxed mb-8 line-clamp-3">
+                <p className="text-ocean-100/50 text-sm leading-relaxed mb-8 leading-relaxed">
                   {p.description}
                 </p>
                 
