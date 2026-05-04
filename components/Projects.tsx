@@ -45,7 +45,7 @@ export default function Projects() {
     },
     {
       title: "Ecosystem Checker",
-      description: "A manual hardware prototype (FeatherUp) designed to stack badminton shuttlecocks efficiently to optimize coaching time.",
+      description: "An automated computer vision application designed to bridge urban planning and environmental conservation. Built with Python and OpenCV, it analyzes HSV color space distributions to quantify green spaces and water bodies. The system generates a data-driven ecological score and produces visual 'improvement maps' via an interactive Gradio interface to suggest targeted biodiversity interventions.",
       tech: ["Product Design", "Prototyping"],
       link: "https://github.com/KeepDr/EcosystemChecker",
       img: "/image/EcoCheck.png",
