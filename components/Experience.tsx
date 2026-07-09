@@ -34,6 +34,13 @@ const ImageShuffler = ({ images }: { images: string[] }) => {
 export default function Experience() {
   const experiences = [
     {
+      role: "People Data Analytics Intern",
+      org: "Hibank Indonesia",
+      period: "June 2026 - Present",
+      desc: "Architected a full stack web platform to centralize Human Capital services. Engineered an automated, database driven attendance tracking system for the internship program, and transformed raw HR metrics into interactive dashboards to support decision-making.",
+      photos: ["/image/Att.png", "/image/Team.jpeg"]
+    },
+    {
       role: "Regional Secretary",
       org: "HIMTI BINUS University",
       period: "2025 - 2026",
