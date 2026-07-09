@@ -37,7 +37,7 @@ export default function Footer() {
         >
           <h3 className="text-3xl md:text-4xl font-bold text-ocean-100 mb-4">Let's build something <span className="text-ocean-400">extraordinary.</span></h3>
           <p className="text-ocean-100/50 max-w-md mx-auto">
-            Currently searching for internship and open to research collaborations.
+            Currently open to research collaborations.
             Feel free to reach out for a virtual coffee!
           </p>
         </motion.div>
